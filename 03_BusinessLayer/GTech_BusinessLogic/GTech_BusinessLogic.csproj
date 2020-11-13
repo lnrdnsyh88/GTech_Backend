@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\01_CrossCuttingLayer\GTech_CrossCutting\GTech_CrossCutting.csproj" />
+    <ProjectReference Include="..\..\02_DataLayer\GTech_DAL\GTech_DAL.csproj" />
+    <ProjectReference Include="..\..\02_DataLayer\GTech_ViewModel\GTech_ViewModel.csproj" />
+  </ItemGroup>
+
+</Project>
