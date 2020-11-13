@@ -109,6 +109,7 @@ namespace GTech_DAL.Users
                 {
                     OutputFlag = Convert.ToBoolean(outParameter["@OutputFlag"].Value);
                     OutputMessage = outParameter["@OutputMessage"].Value.ToString();
+                    OutputToken = outParameter["@OutputToken"].Value.ToString();
                 }
             }
             catch (Exception ex)
